@@ -1,0 +1,71 @@
+
+VPC>> Virtual Private Cloud 
+
+VPC is the networking layer for EC2,
+
+
+VPC: 192.168.0.0/16 /28
+
+1: router
+2: internet gateway\nat gateway :: which allow use both way trffice (incoming and outgoing)and nat gateway only allow us for one way trafic
+3: subnet >>>> divding vpc ip rage in to subnets as per the project or ip rquirment
+4: Security groups::>> work as statful firewall at ec2 instance lavel
+5: NACL: it works on subnet level
+5: route table >> routing the subnet trafic which public or privte
+7: elstistic network interface
+
+4: virtal private gateway
+5: VPN
+
+
+IP Addressing
+
+Subnetting
+
+How VPC works? >>>>>>>>>>>>
+
+Create AWS VPC >>>>>>
+
+IPV4 - 32-bit>>>>>>>>.
+
+IPV6 - 128-bit>>>>>>>>>
+
+
+IP Range start from 0.0.0.0. to 255.255.255.255
+
+CLassess: 
+
+A: 0.126
+
+127 loopback
+
+B: 128 to 191
+
+C: 192 to 223
+
+
+
+D: 224 to 238
+E: 239 to 256
+
+
+Classless inter-domain routing (CIDR) 
+
+32: 1
+31:2
+30: 4
+29: 8
+28: 16
+27: 32
+26: 64
+25: 128
+24: 256
+23: 512
+22: 1024
+21: 2048
+20: 4096
+19: 8100+
+18: 
+
+
+

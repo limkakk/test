@@ -1,0 +1,80 @@
+
+Airtel BB Disconnection Date: 31st 
+SR: 131808732 
+
+
+
+
+
+
+
+
+
+
+
+===== Infa MDM C360 & DB Installation directories  ========
+
+	Infa MDM installer files	: /Informatica
+	Infa MDM home				: /opt/infamdm/hub/server
+	Infa MDM AVOS Home			: /opt/infamdm/avos/server
+	Infa MDM C360 home			: /opt/infamdm/hub/app/tcr
+	Jboss Home					: /opt/jboss-eap-7.2
+	
+	
+====== Server IP & Oracle Database Details ========
+1:
+	Hostname 	: infamdm1041hf2.lumendata.com
+	system User	: infa		 	Password : "LumenData123"
+	App User	: oracle		Password : "Oracle#123"
+	DBA User 	: "sys"			Password : "Oracle#123"
+
+	ORS Details: 
+	ORS 	 	: "tcr_hub" 		Password : "tcr_hub"
+	AVOS ORS	: "avos" 		Password : "avos"
+	MDM Master 	: "cmx_system"  	password : "cmx_system"
+	Port 	 	: 1521
+	Service  	: orcl
+	
+ ## Please note: update the hosts file, according to the OS to access the MDM server.
+
+======Infa MDM ========
+2:  
+	To check Infa MDM is up or not using following the URL
+	Hub Console: infamdm1041hf2.lumendata.com:8080/cmx
+
+	To Download the hubConsole.jar file use admin credentials using following details:
+
+        ====== Login details for Hub Console ======
+               admin login details usr/pwd: admin/admin
+
+======= Activeevos =======
+
+3:  AcitveVOS URL: http://infamdm1041hf2.lumendata.com:8080/activevos/home.action
+   	ActiveVOS usr/pwd: avosadmin/avosadmin
+	
+	
+=======	Provisioning UI ========
+
+4:	http://infamdm1041hf2.lumendata.com:8080/provisioning/#/Dashboard/Home
+	User: admin 	password: admin
+	
+
+====== C360 ========
+5: 	http://infamdm1041hf2.lumendata.com:8080/mdmapps/mdm/entity360view
+	User: admin 	password: admin
+	
+
+====== IDD======
+
+6:	To access IDD application use hub console user and password:
+	http://infamdm1041hf2.lumendata.com:8080/e360/mdm/entity360view/?wstate=(%27$ws%27:searchWS)
+
+
+
+
+
+
+
+
+
+

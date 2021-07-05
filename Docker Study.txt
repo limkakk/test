@@ -1,0 +1,50 @@
+1: docker pull images name
+
+2: docker run -dti images name /bin/bash
+
+we need learn what is backgourd prcess once we ran the docker pull command: 
+
+study point: backgroud of docker run and pull cmd
+
+
+
+there 2 commands: 
+
+1: docker run -dit images name  /bin/bash >>> it will start the container but it will not enter into container
+2: docker container -dti iamges name /bin/bash >>> it will start and enter into container, also if you excited from container, the container will be stopped 
+
+Conculation: running both the command you will get to know that docker ran cmd will not excited the container but docker container cmd will exicted the container once you logout form the container.
+
+
+Study point: diffecnce btw: 1 & 2 cmd
+
+
+
+
+
+
+THE DOCKER TECHNOLOGY
+
+The runtime
+The daemon (a.k.a. engine)
+The orchestrator
+
+
+Study points: Docker architecture
+
+
+Docker Network
+
+ bridge
+ bridge 
+ local
+
+Study point
+
+Study points: what are the types of networks in docker
+
+
+
+
+
+
